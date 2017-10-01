@@ -1,0 +1,5 @@
+name = "Arizon Custom Module"
+description = "Custom module for all hook_alters and other custom related activities."
+core = 7.x
+
+

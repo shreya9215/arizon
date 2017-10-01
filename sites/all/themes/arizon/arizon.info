@@ -1,0 +1,55 @@
+name = Arizon
+description = A corporate theme with pre-defined configurable slider, blocks and Footer options. Developed by <a href="http://in.linkedin.com/in/ujvalshah">Ujval Shah</a>
+core = 7.x
+base theme = bootstrap
+
+;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[header]     = 'Header'
+regions[banner]     = 'Banner'
+regions[highlighted_one]    = 'Highlighted One'
+regions[highlighted_two]    = 'Highlighted Two'
+regions[highlighted_three]    = 'Highlighted Three'
+regions[navigation]           = 'Navigation'
+regions[content]        = 'Content'
+regions[focus]  = 'Focus'
+regions[front_page_portfolio]  = 'Front Page Portflio Region'
+regions[views_page] = 'Views Page'
+regions[service_left]  = 'Service Left'
+regions[service_right]  = 'Service Right'
+regions[service_bottom]  = 'Service Bottom'
+regions[testimony_front] = 'Testinomy Front Page'
+regions[sidebar_second] = 'Secondary'
+regions[footer]   = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+
+scripts[] = 'bootstrap/js/affix.js'
+scripts[] = 'bootstrap/js/alert.js'
+scripts[] = 'bootstrap/js/button.js'
+scripts[] = 'bootstrap/js/carousel.js'
+scripts[] = 'bootstrap/js/collapse.js'
+scripts[] = 'bootstrap/js/dropdown.js'
+scripts[] = 'bootstrap/js/modal.js'
+scripts[] = 'bootstrap/js/tooltip.js'
+scripts[] = 'bootstrap/js/popover.js'
+scripts[] = 'bootstrap/js/scrollspy.js'
+scripts[] = 'bootstrap/js/tab.js'
+scripts[] = 'bootstrap/js/transition.js'
+
+; Disable BootstrapCDN so the compiled LESS source files can be used.
+settings[bootstrap_cdn] = ''

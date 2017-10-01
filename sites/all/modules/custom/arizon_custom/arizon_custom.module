@@ -1,0 +1,88 @@
+<?php
+
+
+
+
+function arizon_custom_ds_layout_info() {
+  $path = drupal_get_path('module', 'arizon_custom');
+  $layouts = array(
+    'portfolio_view' => array(
+      'label' => t('Layout For Portfolio'),
+      'path' => $path . '/templates/portfolio_view',
+     'regions' => array(
+        '_top' => t('Header'),
+        'between' => t('Between'),
+        'left' => t('Left'),
+        'right' => t('Right'),
+      ),
+    'css' => TRUE,
+      'image' => TRUE,
+    ),
+    'service_teaser' => array(
+      'label' => t('Layout For Service Header'),
+      'path' => $path . '/templates/service_teaser',
+     'regions' => array(
+        'left' => t('Left'),
+        'right' => t('Right'),
+      ),
+    'css' => TRUE,
+      'image' => TRUE,
+    ),
+      'landing_pages' => array(
+          'label' => t('Layout For Landing Pages'),
+          'path' => $path . '/templates/landing_pages',
+          'regions' => array(
+              'top' => t('Top   '),
+              'banner' => t('Banner'),
+              'content_page' => t('Content'),
+              'bottom' => t('Bottom'),
+          ),
+          'css' => TRUE,
+          'image' => TRUE,
+      ),
+      'testimony_teaser' => array(
+          'label' => t('Testimony Teaser'),
+          'path' => $path . '/templates/testimony_teaser',
+          'regions' => array(
+              'left' => t('Left'),
+              'right' => t('Right'),
+          ),
+          'css' => TRUE,
+          'image' => TRUE,
+      ),
+      'testimony_list' => array(
+          'label' => t('Testimony List'),
+          'path' => $path . '/templates/testimony_list',
+          'regions' => array(
+              'top_' => t('Top'),
+              'bottom' => t('bottom'),
+          ),
+          'css' => TRUE,
+          'image' => TRUE,
+      ),
+      'case_study_teaser' => array(
+          'label' => t('Case Study Teaser'),
+          'path' => $path . '/templates/case_study_teaser',
+          'regions' => array(
+              'topcase' => t('Top Case'),
+              'bottomcase' => t('Bottom Case'),
+          ),
+          'css' => TRUE,
+          'image' => TRUE,
+      ),
+//     'case_study_content' => array(
+//          'label' => t('Case Study Content'),
+//          'path' => $path . '/templates/case_study_content',
+//          'regions' => array(
+//      'link' => t('Link'),
+//      'profile' => t('Profile'),
+//      'banner' => t('Banner'),
+//      'info' => t('Info'),
+//      'result' => t('Result'),
+//          ),
+//          'css' => TRUE,
+//          'image' => TRUE,
+//      ),
+    );
+  return $layouts;
+}

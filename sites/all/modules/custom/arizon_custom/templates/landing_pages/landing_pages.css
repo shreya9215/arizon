@@ -1,0 +1,29 @@
+/**
+ * @file
+ * Display Suite Landing Pages stylesheet.
+ */
+
+.ds-top {
+  /* Styles for the "top" region go here */
+  width:100%;
+}
+
+.ds-banner {
+  height: auto !important;
+  min-height: 550px;
+  width: 100% !important;
+}
+.ds-banner img {
+  height: auto;
+  min-height: 500px;
+  width: 100%;
+}
+.ds-content {
+  width:100%;
+  /* Styles for the "content" region go here */
+}
+
+.ds-bottom {
+  width:100%;
+  /* Styles for the "bottom" region go here */
+}

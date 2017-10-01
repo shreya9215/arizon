@@ -1,0 +1,16 @@
+/**
+ * @file
+ * Display Suite Testimony Teaser stylesheet.
+ */
+
+.ds-left-testimony {
+  /* Styles for the "left" region go here */
+  float: left;
+  width: 75%;
+}
+
+.ds-right-testimony {
+  /* Styles for the "right" region go here */
+  float: right; /* LTR */
+  width: 25%;
+}

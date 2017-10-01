@@ -1,0 +1,16 @@
+/**
+ * @file
+ * Display Suite Service Teaser stylesheet.
+ */
+
+.ds-left {
+  /* Styles for the "left" region go here */
+     float: left; /* LTR */
+  width: 25%;
+}
+
+.ds-right {
+  /* Styles for the "right" region go here */
+      float: right; /* LTR */
+  width: 75%;
+}

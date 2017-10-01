@@ -1,0 +1,28 @@
+/**
+ * @file
+ * Display Suite Portfolio View stylesheet.
+ */
+
+.ds--top {
+  /* Styles for the "-top" region go here */
+    width: 100%;
+  float: none;
+}
+
+.ds-between {
+  /* Styles for the "between" region go here */
+    width: 100%;
+  float: none;
+}
+
+.ds-left {
+  /* Styles for the "left" region go here */
+    float: left; /* LTR */
+  width: 50%;
+}
+
+.ds-right {
+  /* Styles for the "right" region go here */
+    float: right; /* LTR */
+  width: 50%;
+}
