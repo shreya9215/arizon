@@ -86,3 +86,21 @@ function arizon_custom_ds_layout_info() {
     );
   return $layouts;
 }
+function  arizon_custom_form_alter(&$form, $form_state, $form_id) {
+  switch ($form_id) {
+    case 'contact_site_form':
+
+      $form['tel'] = array(
+        '#title' => t('Phone Number'),
+        '#type' => 'textfield',
+        '#required' => TRUE,
+        '#weight'=> -1,
+      );
+//dsm($form);
+$form['name']['#title'] = 'Name';
+$form['name']['#weight'] = -3;
+$form['mail']['#title'] = 'Email';
+$form['mail']['#weight'] = -2;
+      break;
+  }
+}

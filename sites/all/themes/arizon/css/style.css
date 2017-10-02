@@ -6,7 +6,8 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+/*  font-family: sans-serif;*/
+font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -269,7 +270,8 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -5959,7 +5961,8 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6077,7 +6080,8 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -7876,8 +7880,10 @@ ul.flex-direction-nav li {}
   border-color:  #FFFFFF !important;
 }
 body{
-  font-family: "SF Pro Text" !important;
-  font-size: 18px;
+/*  font-family: "SF Pro Text" !important;*/
+font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+/*  font-size: 18px;*/
+font-size: 15px;
 }
 .service-bottom-page .block-title{
   font-weight:bold;
@@ -8435,4 +8441,37 @@ div#navbar-collapse {
 .node-type-case-studies .label-above{
     font-weight: bold;
     font-size: 25px;
+}
+.contact-us-bottom{
+   margin-top: 46px;
+   background:  #F2F2F2;
+   padding-top: 23px;
+}
+.contact-number{
+    padding: 3px 0px 3px 0px;
+    background: transparent url("../images/phone-icon.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+      background-size: 18px;
+}
+.contact-email{
+    padding: 3px 0px 3px 0px;
+    background: transparent url("../images/email.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+      background-size: 18px;
+}
+.contact-address{
+    padding: 3px 0px 3px 0px;
+    background: transparent url("../images/location-icon-blue.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+      background-size: 18px;
+}
+.contact-place{
+    font-weight: bold;
+    padding: 3px 0px 3px 0px;
 }
