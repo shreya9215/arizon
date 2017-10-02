@@ -27,6 +27,7 @@ function arizon_preprocess_page(&$vars) {
             $vars['field_what_we_did'] = render($oh['field_what_we_did']);
              $vars['field_result'] = render($oh['field_result']);
               $vars['field_section_title'] = render($oh['field_section_title']);
+              $vars['field_icon_case_studies'] =render($oh['field_icon_case_studies']);
 
     }
 

@@ -137,16 +137,29 @@
         <section<?php print $content_column_class; ?>>
 
             <a id="main-content"></a>
+         <div class = "col-lg-8">
+                 <div class = "case-study-light"><?php print t('Case study'); ?></div>
             <?php print render($title_prefix); ?>
             <?php if (!empty($title)): ?>
+               <div class = "case-study-header">
                 <h1 class="page-header"><?php print $title; ?></h1>
+                </div>
             <?php endif; ?>
+
             <?php if (!empty($field_link)): ?>
                 <div class="field-link-case-study"><?php print $field_link; ?></div>
             <?php endif; ?>
+                </div>
+            <div class = "col-lg-4">
+              <?php if (!empty($field_icon_case_studies )): ?>
+                <div class="field-image-case-study"><?php print $field_icon_case_studies; ?></div>
+            <?php endif; ?>
+                </div>
+            <div class = "col-lg-12">
             <?php if (!empty($field_profile)): ?>
                 <div class="profile-image-case-study"><?php print $field_profile; ?></div>
             <?php endif; ?>
+                </div>
             <?php print render($title_suffix); ?>
             <?php print $messages; ?>
             <?php if (!empty($tabs)): ?>
